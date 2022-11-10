@@ -100,4 +100,5 @@ def calc_temps(start, end):
 
 
 
-session.close()
+if __name__ == "__main__":
+    app.run(debug=True)
